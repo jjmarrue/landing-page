@@ -1,8 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+*{
+    border: 1px solid;
+}
+
 body{
-    margin: 0; 
+    margin: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}   
+
+ul li {
+    list-style-type: none;
+    margin: 0 21px 0 0px;
+    padding: 0;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    padding: 20px 0 100px 0;
 }
 
 .header, .footer{
@@ -13,6 +44,7 @@ body{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .hero-subheader, .nav a, .signup{
